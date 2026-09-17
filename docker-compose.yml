@@ -10,7 +10,7 @@ services:
     links:
       - redis
     environment:
-      - REDIS_HOST=redis
+      - REDIS_ADDRESS=redis
       - REDIS_PORT=6379
       - APP_PORT=3000
     
